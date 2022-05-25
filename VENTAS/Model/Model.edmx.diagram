@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d718879494d471686d8029a115468b6" Name="Diagram1">
+        <EntityTypeShape EntityType="VENTASModel.Cargo" Width="1.5" PointX="1.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Categoria" Width="1.5" PointX="3.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Cliente" Width="1.5" PointX="3.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Compra" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Detalle_Compra" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Detalle_Venta" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Empleado" Width="1.5" PointX="1.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Producto_Espera" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Producto" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Proveedore" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Tipo_Documentos" Width="1.5" PointX="3.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="VENTASModel.Venta" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="VENTASModel.FK__Empleados__id_ca__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Productos__id_ca__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Ventas__id_clien__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Compras__id_empl__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Detalle_C__id_co__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Detalle_C__id_pr__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Detalle_C__id_pr__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Detalle_V__id_pr__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Detalle_V__id_ve__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Ventas__id_emple__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Producto___id_pr__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Productos__id_pr__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="VENTASModel.FK__Ventas__id_docum__48CFD27E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
